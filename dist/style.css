@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+
+main{
+    background-color: red;
+}
+header{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-image-container{
+    background-color: rgb(243, 245, 245);
+    min-height: 150px;
+    
+}
+
+.about-me-container{
+    background-color: aqua;/* min-height: 100px; */
+    min-height: 100px;
+    
+}
