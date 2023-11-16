@@ -1,5 +1,4 @@
 body {
-  background-color: lightblue;
   margin: 0;
 }
 
@@ -8,6 +7,7 @@ main {
 }
 
 header {
+  background-color: lightblue;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -36,6 +36,7 @@ header {
   padding: 1rem;
   padding-left: 2rem;
   box-shadow: 1px 1px 12px rgba(51, 28, 28, 0.692);
+  margin: 20px;
 
   > p {
     color: rgb(12, 32, 12);
@@ -57,15 +58,12 @@ header {
   width: 100%;
 }
 
-img {
-  width: 70vmin;
-  max-width: 400px;
-}
-.projects-container {
-}
+
+
 .projects-heading {
   max-width: 70vw;
-  margin: 20px auto;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
 .project-grid {
@@ -85,6 +83,7 @@ img {
 .project {
   max-width: 650px;
   background-color: white;
+  justify-self: center;
  
   >img{
     height: auto;
@@ -93,8 +92,38 @@ img {
   }
 }
 
+footer{
+  background-color: lightgreen;
+}
 
 .footer-container{
     max-width: 70vw;
-    margin: auto;
+    margin: 0 auto;
+    >h2{
+      margin: 0 auto;
+      padding: 10px 0;
+     
+    }
+}
+
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-links{
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  justify-content: space-between;
+}
+.contact-img{
+
+  width: 100%;
+  max-width: 10vw;
+  background-image: url(./images/project.png);
+  background-size: cover;
+  background-position: center;
+  
+  
 }
