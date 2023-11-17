@@ -96,6 +96,20 @@ header {
   }
 }
 
+.project-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-links{
+  display: flex;
+  gap: 1rem;
+}
+.project-link-image{
+  height: 2em;
+  width: 2em;
+}
+
 footer {
   background-color: lightgreen;
 }
